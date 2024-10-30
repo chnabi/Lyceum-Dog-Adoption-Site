@@ -34,10 +34,10 @@ export default function Listings() {
         },
         {
             id: 4,
-            name: "Not Rover",
-            image: "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/golden-retriever-dog-breed-info.jpeg",
-            age: 2,
-            breed: "Golden Retriever"
+            name: "Linus",
+            image: "/Linus_pic.jpg",
+            age: 9,
+            breed: "Cavalier King Charles Spaniel"
         }
     ];
     return (
@@ -57,7 +57,7 @@ export default function Listings() {
                     <p className="text-gray-600 mb-4">Age: {listing.age} years</p>
                     <button
                         onClick={() => router.push(`/details/${listing.id}`)}
-                        className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+                        className="px-4 py-2 bg-lime-700 text-white rounded hover:bg-blue-600 transition"
                     >
                         Learn More!
                     </button>
