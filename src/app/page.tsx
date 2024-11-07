@@ -8,6 +8,10 @@ export default function Home() {
         <button type="button" onClick={() => router.push('/catalog')}>
            <a className="text-lime-300 text-6xl text-bold">Meet Our Crew</a>
         </button>
+        <input
+         type = 'text'
+         placeholder="type in a dog breed"
+         ></input>
         <div className= "space-x-100">
       <img
       src ={"/corgi-dog-clipart.png"}
